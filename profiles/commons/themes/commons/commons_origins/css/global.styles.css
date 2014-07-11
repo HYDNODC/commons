@@ -7516,9 +7516,18 @@ li.field-item {
 	border-radius: 3px;
 	background-color:#EBEBEB;
 }
-
-
-
+/* File Download */
+span.file {
+	padding:0.7em 0.5em 0.6em 0.5em;
+	border: 1px #999999 dotted;
+	border-radius: 3px;
+	background-color:#EBEBEB;
+}
+/* Document View */
+td.views-field-field-document {
+	min-width: 40%;
+}
+      
 
 
 
