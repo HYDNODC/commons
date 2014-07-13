@@ -7527,7 +7527,49 @@ span.file {
 td.views-field-field-document {
 	min-width: 40%;
 }
-      
+/* Quiz Module */
+#quiz-question-answering-form {
+	max-width:960px;
+}
+
+#quiz_progress, 
+#quiz-question-answering-form label {
+    font-style: normal;
+    font-size:0.85em;
+	color: #666;
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.quiz-question-body {
+	padding:1em 0.5em 0 0.5em;
+	margin-bottom:1em;
+	border: 1px #999999 dotted;
+	border-radius: 3px;
+	background-color:#EBEBEB;
+}
+#edit-tries-answer {
+	padding:0em 0.5em;
+	border: 1px #999999 dotted;
+	border-radius: 3px;
+	background-color:#EBEBEB;
+}
+#edit-tries, .matching-tbl{
+	padding:1em 0.5em;
+	border: 1px #999999 dotted;
+	border-radius: 3px;
+	background-color:#EBEBEB;
+	font-size:1.2em;
+}
+#quiz_score_possible,
+#quiz_score_percent {
+	font-weight:normal;
+	color: #666;
+	font-size:0.85em;
+
+}
+
+     
 
 
 
