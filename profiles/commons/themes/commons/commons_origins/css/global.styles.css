@@ -7517,6 +7517,9 @@ li.field-item {
 	background-color:#EBEBEB;
 }
 /* File Download */
+div.file-document {
+	margin:1em 0 1em 0;
+}
 span.file {
 	padding:0.7em 0.5em 0.6em 0.5em;
 	border: 1px #999999 dotted;
@@ -7524,6 +7527,7 @@ span.file {
 	background-color:#EBEBEB;
 }
 /* Document View */
+.view-surveys td.views-field-title,
 td.views-field-field-document {
 	min-width: 40%;
 }
@@ -7531,7 +7535,6 @@ td.views-field-field-document {
 #quiz-question-answering-form {
 	max-width:960px;
 }
-
 #quiz_progress, 
 #quiz-question-answering-form label {
     font-style: normal;
