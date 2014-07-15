@@ -7570,8 +7570,70 @@ td.views-field-field-document {
 	color: #666;
 	font-size:0.85em;
 }
+/* Trainings / Courses */
+ul#course-nav {}
+#course-nav li {
+	float: left;
+	padding: 0.25em 0.85em;
+	border: 1px #999999 dotted;
+	border-radius: 3px;
+	background-color:#EBEBEB;
+}
+#course-nav a:link,
+#course-nav a:visited {
+	display:block;
+}
+#course-nav a:focus,
+#course-nav a:hover,
+#course-nav a:active {
+	text-decoration:none;
+}
+h4.course-title {
+	font-size:1.15em;
+	font-weight:normal;
+	color:#666;
+	line-height:1.25;
+	margin:0.7em 0 0.5em 0;
+}
+span.course-outline-status {
+	font-size:0.85em;
+	color:#666;
+}
+span.certificate-link {
+	padding: 0.5em 1em;
+	border: 1px #999999 dotted;
+	border-radius: 3px;
+	background-color:#EBEBEB;
+}
+div.course-take-course-link-wrapper {
+	margin:2em 0 0 0 ;
+}
+a.course-take-course-link {
+	padding: 0.5em 1em;
+	border: 1px #999999 dotted;
+	border-radius: 3px;
+	background-color:#EBEBEB;
+}
 
-     
+
+/* Blocks */
+div.sidebar div.block {
+	padding:0 1em;
+	margin: 0 0 1em 1em;
+	border: 1px #999999 dotted;
+	border-radius: 3px;
+}
+div.sidebar div.block div.item-list ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+div.sidebar div.block div.item-list ul li{
+	margin: 0;
+	padding: 0.5em 0;
+	border-bottom:#666 1px dotted;
+}
+li#complete {border-bottom:none;}		
 
 
 
