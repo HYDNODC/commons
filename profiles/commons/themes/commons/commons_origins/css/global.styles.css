@@ -7527,9 +7527,20 @@ span.file {
 	background-color:#EBEBEB;
 }
 /* Document View */
-.view-surveys td.views-field-title,
 td.views-field-field-document {
 	min-width: 40%;
+}
+/* Survey Views */
+.view-surveys td.views-field-title {
+	min-width: 40%;
+}
+/* Training View */
+.view-training td.views-field-title {
+	min-width: 30%;
+}
+/* Video View */
+td.views-field-field-video {
+	width:200px;
 }
 /* Quiz Module */
 #quiz-question-answering-form {
@@ -7614,27 +7625,41 @@ a.course-take-course-link {
 	border-radius: 3px;
 	background-color:#EBEBEB;
 }
-
-
+div.field-name-field-video-description {margin:3em 0 0 0;}
 /* Blocks */
-div.sidebar div.block {
-	padding:0 1em;
+
+.sidebar .block {
+	padding:1em;
 	margin: 0 0 1em 1em;
 	border: 1px #999999 dotted;
 	border-radius: 3px;
 }
-div.sidebar div.block div.item-list ul {
+.sidebar .block .block-title {
+	font-weight:normal;
+	color:#666;
+	line-height:1.25;
+	margin:0 0 0.5em 0;
+}
+	
+.sidebar .block .item-list ul {
 	list-style-type:none;
 	margin: 0;
 	padding: 0;
 }
-div.sidebar div.block div.item-list ul li{
+.sidebar .block .item-list ul li{
 	margin: 0;
 	padding: 0.5em 0;
 	border-bottom:#666 1px dotted;
 }
-li#complete {border-bottom:none;}		
-
+.sidebar .block .item-list ul li:last-child {
+	border-bottom:none;
+}		
+.block-region-footer p {
+	font-size:0.85em;
+	color:#666;
+	text-align:center;
+	margin:0.5em 0;
+}
 
 
 
