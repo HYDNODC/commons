@@ -7630,7 +7630,7 @@ div.field-name-field-video-description {margin:3em 0 0 0;}
 
 .sidebar .block {
 	padding:1em;
-	margin: 0 0 1em 1em;
+	margin: 0 1em 1em 1em;
 	border: 1px #999999 dotted;
 	border-radius: 3px;
 }
@@ -7660,10 +7660,23 @@ div.field-name-field-video-description {margin:3em 0 0 0;}
 	text-align:center;
 	margin:0.5em 0;
 }
+/* Search Front Page */
+#block-multiblock-1 {
+	padding:1em;
+	margin: 0 0 1em 0;
+	border: 1px #999999 dotted;
+	border-radius: 3px;
+}
+/* Rate Widget */
 
-
-
-
+.node-content .form-item label {
+	color:#666;
+	padding-right:0.75em;
+	float:left;
+}
+.rate-widget {
+	float:left;
+}
 
 
 
